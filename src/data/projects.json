@@ -1,25 +1,25 @@
 {
     "projects": [
         {
-            "cover": "/projects-preview/PodcastChannelPreview.png",
+            "cover": "./projects-preview/PodcastChannelPreview.png",
             "title": "Podcast Channel",
             "description": "Landing page of a Podcast Channel using HTML and CSS",
             "url": "https://imsebz.github.io/PodcastChannel/"
         },
         {
-            "cover": "/projects-preview/CoinbaseLandingPreview.png",
+            "cover": "./projects-preview/CoinbaseLandingPreview.png",
             "title": "Coinbase Landing Page",
             "description": "Landing page using HTML, SASS and Bootstrap",
             "url": "https://imsebz.github.io/CoinbaseLanding/"
         },
         {
-            "cover": "/projects-preview/GifosPreview.png",
+            "cover": "./projects-preview/GifosPreview.png",
             "title": "Gifos",
             "description": "Made with HTML, SASS and JavaScript using Giphy's API",
             "url": "https://imsebz.github.io/Gifos/"
         },
         {
-            "cover": "/projects-preview/GifExpertAppPreview.png",
+            "cover": "./projects-preview/GifExpertAppPreview.png",
             "title": "GifExpertApp",
             "description": "Giphy's API Practice Project with React + Vite",
             "url": "https://imsebz.github.io/GifExpertApp/"
