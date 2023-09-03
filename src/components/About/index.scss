@@ -1,0 +1,49 @@
+$primary-color: #ffd700;
+
+
+.text-zone {
+    p a {
+        text-decoration: none;
+        color: $primary-color;
+        text-decoration: underline;
+    }
+}
+
+
+.profile-picture-cont {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+
+    .picture {
+        display: flex;
+        justify-content: center;
+        margin-top: 20%;
+
+        img {
+            height: 500px;
+            border-radius: 50%;
+            box-shadow: 0 0 20px 0px white;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .profile-picture-cont{
+        position: initial;
+        width: 100%;
+        overflow: visible;
+
+        .picture {
+            margin-top: 50px;
+
+            img {
+                height: 300px;
+            }
+        }
+    }
+}
