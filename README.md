@@ -58,3 +58,14 @@ To run this project locally, follow these steps:
 2. Navigate to the project directory:
     ```bash
     cd portfolio
+
+3. Install the project dependencies using npm:
+    ```bash
+    npm install
+
+4. Start the development server:
+    ```bash
+    npm start
+
+5. Open your browser and visit http://localhost:3000 to see your portfolio website in action.
+    
