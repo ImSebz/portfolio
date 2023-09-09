@@ -10,7 +10,7 @@ export const Home = () => {
 
   const [letterClass, setLetterClass] = useState('text-animate');
   const nameArray = " Sebastián".split("");
-  const jobArray = "Front-end developer.".split("");
+  const jobArray = "Software developer.".split("");
 
   useEffect(() => {
 
