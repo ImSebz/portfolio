@@ -45,7 +45,7 @@ export const Home = () => {
             idx={16}
           />
         </h1>
-        <h2 className='home-tecs'>JavaScript | ReactJs | NodeJS | ExpressJS | MongoDB | MySQL | HTML5 | CSS3 | Git </h2>
+        <h2 className='home-tecs'>JavaScript | ReactJs | NodeJS | ExpressJS | MongoDB | HTML5 | CSS3 | SASS | Git </h2>
         <Link to="/contact" className="flat-button">CONTACT ME</Link>
         <a className='flat-button' id='button-cv' rel='noreferrer' target='_blank' href='https://www.canva.com/design/DAE_PThHI5U/er6T38m0xA0bqjyB0D1n8g/view?utm_content=DAE_PThHI5U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'> VIEW MY CV</a>
       </div>
