@@ -11,6 +11,8 @@ export const About = () => {
 
   useEffect(() => {
 
+    document.title = 'About me';
+
     const timeoutId = setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)

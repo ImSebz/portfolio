@@ -9,6 +9,9 @@ export const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
 
   useEffect(() => {
+
+    document.title = 'Projects';
+    
     const timeoutId = setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 4000)

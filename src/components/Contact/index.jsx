@@ -9,6 +9,9 @@ export const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {
+
+        document.title = 'Contact';
+
         const timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 3000)
