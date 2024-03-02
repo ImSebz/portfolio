@@ -23,6 +23,13 @@
             "title": "GifExpertApp",
             "description": "Giphy's API Practice Project with React + Vite",
             "url": "https://imsebz.github.io/GifExpertApp/"
+        },
+
+        {
+            "cover": "./projects-preview/BudPass.png",
+            "title": "BudPass",
+            "description": "In charge of the front-end development of the BudPass web app",
+            "url": "https://budpass.co"
         }
     ]
     
