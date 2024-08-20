@@ -20,9 +20,27 @@
         },
         {
             "cover": "./projects-preview/BudPass.png",
-            "title": "Budweiser - BudPass/BudXTour",
-            "description": "In charge of the front-end development of the BudPass/BudXTour web app",
+            "title": "Budweiser - BudXTour",
+            "description": "In charge of the front-end development of the BudXTour web app",
             "url": "https://budxtour.com"
+        },
+        {
+            "cover": "./projects-preview/LetsDoDinner.png",
+            "title": "Stella - Let's Do Dinner",
+            "description": "In charge of the development of the Let's do Dinner web app",
+            "url": "https://perfectservestella.com"
+        },
+        {
+            "cover": "./projects-preview/ParaisosCorona.png",
+            "title": "Corona - Paraisos Corona",
+            "description": "In charge of the development of the Paraisos Corona web app",
+            "url": "https://paraisoscorona.com"
+        },
+        {
+            "cover": "./projects-preview/RutaCerveza.png",
+            "title": "La Ruta de la Cerveza",
+            "description": "In charge of the development of the Ruta de la Cerveza web app",
+            "url": "https://rutacervecerahe.com/"
         }
     ]
     
