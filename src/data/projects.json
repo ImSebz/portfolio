@@ -47,6 +47,12 @@
             "title": "Aerorental México",
             "description": "Development of the Aerorental México web page",
             "url": "https://aerorentalmexico.com/"
+        },
+        {
+            "cover": "./projects-preview/RegresoAlCole.jpg",
+            "title": "Promo Regreso al Cole",
+            "description": "Development of the Regreso al Cole web app",
+            "url": "https://promoregresoalcole.com/"
         }
     ]
     
