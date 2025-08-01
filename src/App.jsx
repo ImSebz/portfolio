@@ -5,21 +5,23 @@ import { Home } from './components/Home';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
 import { Projects} from './components/Projects';
+import { LanguageProvider } from './context/LanguageContext';
 import React from 'react';
 
 function App() {
   return (
     <>
     <React.StrictMode>
-      <Routes>
-        <Route path='/' element={<Layout />}>
-          <Route index element={<Home />}/>
-          <Route path='about' element={<About />}/>
-          <Route path='contact' element={<Contact />}/>
-          <Route path='projects' element={<Projects />}/>
-        </Route>
-      </Routes>
-
+      <LanguageProvider>
+        <Routes>
+          <Route path='/' element={<Layout />}>
+            <Route index element={<Home />}/>
+            <Route path='about' element={<About />}/>
+            <Route path='contact' element={<Contact />}/>
+            <Route path='projects' element={<Projects />}/>
+          </Route>
+        </Routes>
+      </LanguageProvider>
     </React.StrictMode>
     </>
   );

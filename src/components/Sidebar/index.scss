@@ -124,6 +124,34 @@ $primary-color: #ffd700;
                     color: $primary-color;
                 }
             }
+
+            .language-toggle-btn {
+                background: transparent;
+                border: none;
+                padding: 7px 0;
+                display: block;
+                font-size: 24px;
+                line-height: 16px;
+                color: #4d4d4e;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                width: 100%;
+
+                .flag-image {
+                    width: 24px;
+                    height: auto;
+                    border-radius: 3px;
+                    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+                    transition: all 0.3s ease;
+                }
+
+                &:hover {
+                    .flag-image {
+                        transform: scale(1.2);
+                        filter: drop-shadow(0 4px 8px rgba(255, 215, 0, 0.4));
+                    }
+                }
+            }
         }
     }
 
@@ -179,6 +207,33 @@ $primary-color: #ffd700;
 
             &.mobile-show {
                 display: block;
+            }
+        }
+
+        ul {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            display: block;
+            z-index: 3;
+
+            &.mobile-show {
+                display: block;
+            }
+
+            li {
+                .language-toggle-btn {
+                    font-size: 30px;
+                    padding: 10px;
+
+                    .flag-image {
+                        width: 30px;
+                    }
+
+                    &:hover .flag-image {
+                        transform: scale(1.3);
+                    }
+                }
             }
         }
 

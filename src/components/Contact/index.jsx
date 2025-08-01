@@ -2,15 +2,17 @@ import Loader from 'react-loaders';
 import './index.scss';
 import { AnimatedLetters } from '../Animations';
 import { useEffect, useRef, useState } from 'react';
+import { useLanguage } from '../../context/LanguageContext';
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
+    const { t } = useLanguage();
 
     useEffect(() => {
 
-        document.title = 'Contact';
+        document.title = t('contactTitle');
 
         const timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
@@ -18,7 +20,7 @@ export const Contact = () => {
         return () => {
             clearTimeout(timeoutId)
         }
-    }, []);
+    }, [t]);
 
     const refForm = useRef();
 
@@ -28,10 +30,10 @@ export const Contact = () => {
         emailjs.sendForm('service_p80bw46', 'template_69mzflo', refForm.current, '9zejksCzcW8GhrspV')
             .then((result) => {
                 // console.log(result.text);
-                alert('Message successfully sent!');
+                alert(t('messageSuccess'));
                 e.target.reset();
             }, (error) => {
-                alert('Can not send the message please try again :(');
+                alert(t('messageError'));
                 console.error(error)
             });
     }
@@ -44,30 +46,30 @@ export const Contact = () => {
                     <h1>
                         <AnimatedLetters
                             letterClass={letterClass}
-                            strArray={"Contact me".split("")}
+                            strArray={t('contactTitle').split("")}
                             idx={15}
                         />
                     </h1>
                     <p>
-                        Let's collaborate and create something amazing together! If you're interested in working with me, have questions, or just want to say hello, feel free to reach out.
+                        {t('contactDescription')}
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail} id='form-contact-id'>
                             <ul>
                                 <li className='half'>
-                                    <input type='text' name='user_name' placeholder='Name' required />
+                                    <input type='text' name='user_name' placeholder={t('namePlaceholder')} required />
                                 </li>
                                 <li className='half'>
-                                    <input type='email' name='user_email' placeholder='Email' required />
+                                    <input type='email' name='user_email' placeholder={t('emailPlaceholder')} required />
                                 </li>
                                 <li>
-                                    <input placeholder='Subject' type='text' name='subject' required />
+                                    <input placeholder={t('subjectPlaceholder')} type='text' name='subject' required />
                                 </li>
                                 <li>
-                                    <textarea placeholder='Message' name='message' required></textarea>
+                                    <textarea placeholder={t('messagePlaceholder')} name='message' required></textarea>
                                 </li>
                                 <li>
-                                    <input type='submit' className='flat-button' value='Send' />
+                                    <input type='submit' className='flat-button' value={t('send')} />
                                 </li>
                             </ul>
                         </form>

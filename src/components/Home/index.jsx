@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import { AnimatedLetters } from '../Animations';
 import { useEffect, useState } from 'react';
+import { useLanguage } from '../../context/LanguageContext';
 import './index.scss'
 import CV from '../../assets/docs/JuanSebastianCamargoPrieto-CV.pdf'
+import HDV from '../../assets/docs/JuanSebastianCamargoPrieto-HDV.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
@@ -10,12 +12,13 @@ import Loader from 'react-loaders';
 export const Home = () => {
 
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = " Sebastián".split("");
-  const jobArray = "Software developer.".split("");
+  const { language, t } = useLanguage();
+  const nameArray = t('name').split("");
+  const jobArray = t('job').split("");
 
   useEffect(() => {
 
-    document.title = 'Home';
+    document.title = t('homeTitle');
 
     const timeoutId = setTimeout(() => {
       setLetterClass('text-animate-hover')
@@ -23,7 +26,7 @@ export const Home = () => {
     return () => {
       clearTimeout(timeoutId)
     }
-  }, [])
+  }, [t])
 
 
   return (
@@ -31,11 +34,11 @@ export const Home = () => {
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-          <span className={letterClass}>H</span>
-          <span className={`${letterClass} _12`}>i,</span>
+          <span className={letterClass}>{t('hi').charAt(0)}</span>
+          <span className={`${letterClass} _12`}>{t('hi').slice(1)}</span>
           <br />
-          <span className={`${letterClass} _13`}>I</span>
-          <span className={`${letterClass} _14`}>'m <span /></span>
+          <span className={`${letterClass} _13`}>{t('im').charAt(0)}</span>
+          <span className={`${letterClass} _14`}>{t('im').slice(1)} <span /></span>
           <AnimatedLetters
             letterClass={letterClass}
             strArray={nameArray}
@@ -48,9 +51,17 @@ export const Home = () => {
             idx={16}
           />
         </h1>
-        <h2 className='home-tecs'>JavaScript | ReactJs | NodeJS | ExpressJS | MongoDB | HTML5 | CSS3 | SASS | Git </h2>
-        <Link to="/contact" className="flat-button">CONTACT ME</Link>
-        <a className='flat-button' id='button-cv' rel='noreferrer' target='_blank' href={ CV }> VIEW MY CV</a>
+        <h2 className='home-tecs'>{t('techs')}</h2>
+        <Link to="/contact" className="flat-button">{t('contactMe')}</Link>
+        <a 
+          className='flat-button' 
+          id='button-cv' 
+          rel='noreferrer' 
+          target='_blank' 
+          href={language === 'es' ? HDV : CV}
+        > 
+          {t('viewCV')}
+        </a>
       </div>
 
       <div className='stage-cube-cont'>

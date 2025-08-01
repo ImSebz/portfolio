@@ -2,58 +2,111 @@
     "projects": [
         {
             "cover": "./projects-preview/PodcastChannelPreview.png",
-            "title": "Podcast Channel",
-            "description": "Landing page of a Podcast Channel using HTML and CSS",
+            "title": {
+                "en": "Podcast Channel",
+                "es": "Canal de Podcast"
+            },
+            "description": {
+                "en": "Landing page of a Podcast Channel using HTML and CSS",
+                "es": "Landing page de un Canal de Podcast usando HTML y CSS"
+            },
             "url": "https://imsebz.github.io/PodcastChannel/"
         },
         {
             "cover": "./projects-preview/CoinbaseLandingPreview.png",
-            "title": "Coinbase Landing Page",
-            "description": "Landing page using HTML, SASS and Bootstrap",
+            "title": {
+                "en": "Coinbase Landing Page",
+                "es": "Página de Coinbase"
+            },
+            "description": {
+                "en": "Landing page using HTML, SASS and Bootstrap",
+                "es": "Landing page usando HTML, SASS y Bootstrap"
+            },
             "url": "https://imsebz.github.io/CoinbaseLanding/"
         },
         {
             "cover": "./projects-preview/GifosPreview.png",
-            "title": "Gifos",
-            "description": "Made with HTML, SASS and JavaScript using Giphy's API",
+            "title": {
+                "en": "Gifos",
+                "es": "Gifos"
+            },
+            "description": {
+                "en": "Made with HTML, SASS and JavaScript using Giphy's API",
+                "es": "Desarrollado con HTML, SASS y JavaScript usando la API de Giphy"
+            },
             "url": "https://imsebz.github.io/Gifos/"
         },
         {
             "cover": "./projects-preview/BudxTour.png",
-            "title": "Budweiser - BudXTour",
-            "description": "Front-end development of the BudXTour web app",
+            "title": {
+                "en": "Budweiser - BudXTour",
+                "es": "Budweiser - BudXTour"
+            },
+            "description": {
+                "en": "Front-end development of the BudXTour web app",
+                "es": "Desarrollo front-end de la aplicación web BudXTour"
+            },
             "url": "https://budxtour.com"
         },
         {
             "cover": "./projects-preview/LetsDoDinner.png",
-            "title": "Stella - Let's Do Dinner",
-            "description": "Full Stack development of the Let's do Dinner web app",
+            "title": {
+                "en": "Stella - Let's Do Dinner",
+                "es": "Stella - Hagamos la Cena"
+            },
+            "description": {
+                "en": "Full Stack development of the Let's do Dinner web app",
+                "es": "Desarrollo Full Stack de la aplicación web Let's do Dinner"
+            },
             "url": "https://perfectservestella.com"
         },
         {
             "cover": "./projects-preview/ParaisosCorona.png",
-            "title": "Corona - Paraisos Corona",
-            "description": "Full Stack development of the Paraisos Corona web app",
+            "title": {
+                "en": "Corona - Paraisos Corona",
+                "es": "Corona - Paraísos Corona"
+            },
+            "description": {
+                "en": "Full Stack development of the Paraisos Corona web app",
+                "es": "Desarrollo Full Stack de la aplicación web Paraísos Corona"
+            },
             "url": "https://paraisoscorona.com"
         },
         {
             "cover": "./projects-preview/RutaCerveza.png",
-            "title": "La Ruta de la Cerveza",
-            "description": "Development of the Ruta de la Cerveza web app",
+            "title": {
+                "en": "La Ruta de la Cerveza",
+                "es": "La Ruta de la Cerveza"
+            },
+            "description": {
+                "en": "Development of the Ruta de la Cerveza web app",
+                "es": "Desarrollo de la aplicación web Ruta de la Cerveza"
+            },
             "url": "https://rutacervecerahe.com/"
         },
         {
             "cover": "./projects-preview/AerorentalMexico.jpg",
-            "title": "Aerorental México",
-            "description": "Development of the Aerorental México web page",
+            "title": {
+                "en": "Aerorental México",
+                "es": "Aerorental México"
+            },
+            "description": {
+                "en": "Development of the Aerorental México web page",
+                "es": "Desarrollo de la página web de Aerorental México"
+            },
             "url": "https://aerorentalmexico.com/"
         },
         {
             "cover": "./projects-preview/RegresoAlCole.jpg",
-            "title": "Promo Regreso al Cole",
-            "description": "Development of the Regreso al Cole web app",
+            "title": {
+                "en": "Promo Regreso al Cole",
+                "es": "Promo Regreso al Cole"
+            },
+            "description": {
+                "en": "Development of the Regreso al Cole web app",
+                "es": "Desarrollo de la aplicación web Regreso al Cole"
+            },
             "url": "https://promoregresoalcole.com/"
         }
     ]
-    
 }

@@ -1,14 +1,18 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import LogoS from '../../assets/images/LogoSebz.png';
+import ColombiaFlag from '../../assets/images/colombia_flag.png';
+import UsaFlag from '../../assets/images/usa_flag.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faClose, faEnvelope, faEye, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
+import { useLanguage } from '../../context/LanguageContext';
 
 export const Sidebar = () => {
 
     const [showNav, setShowNav] = useState(false);
+    const { language, toggleLanguage } = useLanguage();
 
   return (
     <div className="nav-bar">
@@ -50,7 +54,19 @@ export const Sidebar = () => {
                     <FontAwesomeIcon icon={faGithub} color="4d4d4e"/>
                 </a>
             </li>
-            
+            <li>
+                <button 
+                    onClick={toggleLanguage}
+                    className="language-toggle-btn"
+                    title={language === 'en' ? 'Cambiar a Español' : 'Switch to English'}
+                >
+                    <img 
+                        src={language === 'en' ? UsaFlag : ColombiaFlag}
+                        alt={language === 'en' ? 'USA Flag' : 'Colombia Flag'}
+                        className="flag-image"
+                    />
+                </button>
+            </li>
         </ul>
         <FontAwesomeIcon 
             onClick={() => setShowNav(true)}
