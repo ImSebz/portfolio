@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c3de05c0.css",
-    "main.js": "/portfolio/static/js/main.98e76cbc.js",
+    "main.css": "/portfolio/static/css/main.898e9534.css",
+    "main.js": "/portfolio/static/js/main.ae944000.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profileP.jpg": "/portfolio/static/media/profileP.0eeaf7f6b1c097f43712.jpg",
+    "static/media/JuanSebastianCamargoPrieto-HDV.pdf": "/portfolio/static/media/JuanSebastianCamargoPrieto-HDV.4cbf676ec08c20c8f54d.pdf",
     "static/media/JuanSebastianCamargoPrieto-CV.pdf": "/portfolio/static/media/JuanSebastianCamargoPrieto-CV.af3ee5f7edfd0506b1a6.pdf",
     "static/media/LogoSebz.png": "/portfolio/static/media/LogoSebz.f5d8c2df26ed27c775a8.png",
+    "static/media/usa_flag.png": "/portfolio/static/media/usa_flag.d38b1cc751898b04eb26.png",
     "static/media/helvetica-neu.ttf": "/portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/colombia_flag.png": "/portfolio/static/media/colombia_flag.eaebe03549dfbbc4a675.png",
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/portfolio/index.html",
-    "main.c3de05c0.css.map": "/portfolio/static/css/main.c3de05c0.css.map",
-    "main.98e76cbc.js.map": "/portfolio/static/js/main.98e76cbc.js.map",
+    "main.898e9534.css.map": "/portfolio/static/css/main.898e9534.css.map",
+    "main.ae944000.js.map": "/portfolio/static/js/main.ae944000.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3de05c0.css",
-    "static/js/main.98e76cbc.js"
+    "static/css/main.898e9534.css",
+    "static/js/main.ae944000.js"
   ]
 }
