@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { AnimatedLetters } from '../Animations';
 import { useEffect, useState } from 'react';
 import './index.scss'
+import CV from '../../assets/docs/JuanSebastianCamargoPrieto-CV.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
@@ -49,7 +50,7 @@ export const Home = () => {
         </h1>
         <h2 className='home-tecs'>JavaScript | ReactJs | NodeJS | ExpressJS | MongoDB | HTML5 | CSS3 | SASS | Git </h2>
         <Link to="/contact" className="flat-button">CONTACT ME</Link>
-        <a className='flat-button' id='button-cv' rel='noreferrer' target='_blank' href='https://www.canva.com/design/DAE_PThHI5U/er6T38m0xA0bqjyB0D1n8g/view?utm_content=DAE_PThHI5U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'> VIEW MY CV</a>
+        <a className='flat-button' id='button-cv' rel='noreferrer' target='_blank' href={ CV }> VIEW MY CV</a>
       </div>
 
       <div className='stage-cube-cont'>
