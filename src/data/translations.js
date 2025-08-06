@@ -53,7 +53,7 @@ export const translations = {
     aboutMe: "Acerca de mí",
     aboutDescription1: "Graduado en tecnología en desarrollo de software y aplicaciones móviles, excelente dominio del idioma inglés, con conocimiento en diferentes lenguajes de programación y tecnologías como JavaScript, TypeScript, ReactJs, tecnologías de desarrollo web, HTML5, CSS3, bases de datos relacionales y no relacionales y otras tecnologías actuales.",
     aboutDescription2: "Siempre dispuesto a explorar y profundizar en nuevos temas y con la capacidad de cumplir con los requisitos.",
-    aboutDescription3: "¡Echa un vistazo a mi",
+    aboutDescription3: "¡Revisa mi perfil de",
     linkedin: "Linkedin",
     and: "y mi",
     github: "Github",
