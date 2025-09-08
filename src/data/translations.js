@@ -11,7 +11,7 @@ export const translations = {
     
     // About
     aboutMe: "About me",
-    aboutDescription1: "Software developer, with excellent command of the English language, knowledge in different programming languages and technologies such as JavaScript, TypeScript, ReactJs, Git, web development technologies, good SEO positioning practices, relational and non-relational databases, among other current technologies.",
+    aboutDescription1: "Graduated in technology in software development and mobile applications, excellent proficiency of the English language, with knowledge in different programming languages and technologies such as JavaScript, TypeScript, ReactJs, web development technologies, HTML5, CSS3, relational and non-relational databases and other current technologies.",
     aboutDescription2: "Always willing to explore and delve into new topics and with the ability to meet requirements.",
     aboutDescription3: "Check out my",
     linkedin: "Linkedin",
@@ -51,7 +51,7 @@ export const translations = {
     
     // About
     aboutMe: "Acerca de mí",
-    aboutDescription1: "Desarrollador de software, con excelente dominio del idioma inglés, con conocimientos en diferentes lenguajes de programación y tecnologías como JavaScript, TypeScript, ReactJs, Git, tecnologías de desarrollo web, buenas prácticas de posicionamiento SEO, bases de datos relacionales y no relacionales, entre otras tecnologías actuales. Siempre dispuesto a explorar y adentrarse en nuevos temas, con la capacidad de cumplir requisitos dispuestos.",
+    aboutDescription1: "Graduado en tecnología en desarrollo de software y aplicaciones móviles, excelente dominio del idioma inglés, con conocimiento en diferentes lenguajes de programación y tecnologías como JavaScript, TypeScript, ReactJs, tecnologías de desarrollo web, HTML5, CSS3, bases de datos relacionales y no relacionales y otras tecnologías actuales.",
     aboutDescription2: "Siempre dispuesto a explorar y profundizar en nuevos temas y con la capacidad de cumplir con los requisitos.",
     aboutDescription3: "¡Mira mi",
     linkedin: "Linkedin",

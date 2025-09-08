@@ -52,7 +52,7 @@
             "cover": "./projects-preview/LetsDoDinner.png",
             "title": {
                 "en": "Stella - Let's Do Dinner",
-                "es": "Stella - Hagamos la Cena"
+                "es": "Stella - Let's Do Dinner"
             },
             "description": {
                 "en": "Full Stack development of the Let's do Dinner web app",
