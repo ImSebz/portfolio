@@ -51,7 +51,7 @@ export const translations = {
     
     // About
     aboutMe: "Acerca de mí",
-    aboutDescription1: "Desarrollador de software, con excelente dominio del idioma inglés, con conocimientos en diferentes lenguajes de programación y tecnologías como JavaScript, TypeScript, ReactJs, Git, tecnologías de desarrollo web, buenas prácticas de posicionamiento SEO, bases de datos relacionales y no relacionales, entre otras tecnologías actuales. Siempre dispuesto a explorar y adentrarse en nuevos temas, con la capacidad de cumplir requisitos dispuestos.",
+    aboutDescription1: "Desarrollador de software, con excelente dominio del idioma inglés, con conocimientos en diferentes lenguajes de programación y tecnologías como JavaScript, TypeScript, ReactJs, Git, tecnologías de desarrollo web, buenas prácticas de posicionamiento SEO, bases de datos relacionales y no relacionales, entre otras tecnologías actuales.",
     aboutDescription2: "Siempre dispuesto a explorar y profundizar en nuevos temas y con la capacidad de cumplir con los requisitos.",
     aboutDescription3: "¡Mira mi",
     linkedin: "Linkedin",
