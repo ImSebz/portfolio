@@ -107,6 +107,30 @@
                 "es": "Desarrollo de la aplicación web Regreso al Cole"
             },
             "url": "https://promoregresoalcole.com/"
+        },
+        {
+            "cover": "./projects-preview/AerorentalColombia.jpg",
+            "title": {
+                "en": "Aerorental Colombia",
+                "es": "Aerorental Colombia"
+            },
+            "description": {
+                "en": "Development of the Aerorental Colombia web page",
+                "es": "Desarrollo de la página web de Aerorental Colombia"
+            },
+            "url": "https://aerorental.com.co/"
+        },
+        {
+            "cover": "./projects-preview/BullMarketing.jpg",
+            "title": {
+                "en": "Bull Marketing",
+                "es": "Bull Marketing"
+            },
+            "description": {
+                "en": "Development of the Bull Marketing web page",
+                "es": "Desarrollo de la página web de Bull Marketing"
+            },
+            "url": "https://bullmarketing.com.co/"
         }
     ]
 }
