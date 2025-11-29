@@ -3,8 +3,8 @@ import { AnimatedLetters } from '../Animations';
 import { useEffect, useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import './index.scss'
-import CV from '../../assets/docs/JuanSebastianCamargoPrieto-CV.pdf'
-import HDV from '../../assets/docs/JuanSebastianCamargoPrieto-HDV.pdf';
+import CV from '../../assets/docs/JuanSebastianCamargo-CV.pdf'
+import HDV from '../../assets/docs/JuanSebastianCamargo-HDV.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
